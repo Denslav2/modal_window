@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal widow</title>
+</head>
+
+<body>
+    <button class="btn" data-open>Связаться с нами</button>
+    <div class="modal">
+        <div class="modal__container">
+            <div class="modal__content">
+                <form action="">
+                    <div class="modal__btn-close" data-close>&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами в ближайщее время!</div>
+                    <input type="text" class="modal__input" placeholder="Ваше имя">
+                    <input type="phone" class="modal__input" placeholder="Ваш телефон">
+                    <input type="email" class="modal__input" placeholder="Ваш email">
+                    <button class="modal__btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
